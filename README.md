@@ -1,18 +1,18 @@
-# homebrew-tmux-mcp
+# homebrew-wtp-mcp
 
-Homebrew tap for tmux-mcp-rs.
+Homebrew tap for wtp-mcp-rs.
 
 ## Install
 
 ```bash
-brew install bnomei/tmux-mcp/tmux-mcp-rs
+brew install bnomei/wtp-mcp/wtp-mcp-rs
 ```
 
 ## Maintain
 
-Bump `version` and update all `sha256` values in `Formula/tmux-mcp-rs.rb` to match the
-GitHub Release tarballs from `bnomei/tmux-mcp`.
+Bump `version` and update all `sha256` values in `Formula/wtp-mcp-rs.rb` to match the
+GitHub Release tarballs from `bnomei/wtp-mcp`.
 
-!!!!!!!!!! TODO TODO TODO !!!!!!!!!!
-UPDATE SHA256 VALUES BEFORE PUSHING A RELEASE
-!!!!!!!!!! TODO TODO TODO !!!!!!!!!!
+```bash
+scripts/update-sha256.sh
+```
