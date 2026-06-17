@@ -1,14 +1,14 @@
 class TmuxMcpRs < Formula
   desc "Tmux MCP server in Rust"
   homepage "https://github.com/bnomei/tmux-mcp"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   checksums = {
-    aarch64_apple_darwin: "016dcfecf1439b0e0e38039ff9e8bbd76beadcc62d1f7967f77fb82658f09f53",
-    x86_64_apple_darwin: "bae07920b1a3baa5053687cdc88729985d0a767aabb839ca1a69e565c310e892",
-    aarch64_unknown_linux_musl: "a5d2e0334469000f5dbb5e9a6215f76212fcc813fa818024e01de9f84e2a2b5e",
-    x86_64_unknown_linux_musl: "748e1b84663df891921070641c969b5c5abed08b25e17bc44b697f2f60c08188",
+    aarch64_apple_darwin: "1e70a11f4ddec30b1a586b0c5b40f24524515ebdfa81d304f6cf4638981b8599",
+    x86_64_apple_darwin: "0ae4275fab23ce1a5cca805239c99271e67c864005b77b9f624dc772a12318de",
+    aarch64_unknown_linux_musl: "7aecc33bbb7c4a37c0a3896d0a248a64a27e59fc142ecd3393a2ec9397c9a3dd",
+    x86_64_unknown_linux_musl: "f1f88bafbbcb4fffce84539dd7cc8c4d2a6adc5a46d9892fe9dd3961db746b0f",
   }
 
   on_macos do
